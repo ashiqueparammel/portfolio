@@ -2,6 +2,7 @@ import './Projects.css';
 import ProjectOneImage from '../../assets/images/ProjectCootImage.png';
 import ProjectTwoImage from '../../assets/images/DarkFantacy.png';
 import ProjectThreeImage from '../../assets/images/NetFlix.png';
+import ProjectfourImage from '../../assets/images/Olx.png';
 import {useMemo} from "react";
 import {Project as ProjectType} from "../../Types/Project.ts";
 import {Project} from  "../";
@@ -35,6 +36,15 @@ export const Projects= () => {
             github: 'https://github.com/AshiqueParammel/Netflix_React',
             website: '',
             image:ProjectThreeImage, 
+            techStack: ['React','firebase','axios','redux']
+        },{
+            title: 'Olx',
+            subtitle: 'CLONE',
+            description: " In This Project i Used React,axios,redux,firebase",
+
+            github: 'https://github.com/ashiqueparammel/olx',
+            website: '',
+            image:ProjectfourImage, 
             techStack: ['React','firebase','axios','redux']
         }
       
