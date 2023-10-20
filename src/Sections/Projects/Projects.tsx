@@ -20,15 +20,6 @@ export const Projects= () => {
             techStack: ['React', 'Django', 'PostgreSQL', 'Docker', 'Nginx','Ajax', 'CSS']
         },
         {
-            title: 'DARK-FANTASY',
-            subtitle: 'Responsive Template',
-            description: "Responsive Template Used HTML and CSS",
-
-            github: 'https://github.com/AshiqueParammel/Dark-fantasy',
-            website: 'ashiqueparammel.github.io/Dark-fantasy/',
-            image: ProjectTwoImage,
-            techStack: ['HTML', 'CSS']
-        },{
             title: 'Netflix',
             subtitle: 'CLONE',
             description: " In This Project i Used React,axios,redux,firebase",
@@ -46,6 +37,15 @@ export const Projects= () => {
             website: '',
             image:ProjectfourImage, 
             techStack: ['React','firebase','axios','redux']
+        },{
+            title: 'DARK-FANTASY',
+            subtitle: 'Responsive Template',
+            description: "Responsive Template Used HTML and CSS",
+
+            github: 'https://github.com/AshiqueParammel/Dark-fantasy',
+            website: 'ashiqueparammel.github.io/Dark-fantasy/',
+            image: ProjectTwoImage,
+            techStack: ['HTML', 'CSS']
         }
       
     ], []);
