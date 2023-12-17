@@ -3,6 +3,7 @@ import ProjectOneImage from '../../assets/images/ProjectCootImage.png';
 import ProjectTwoImage from '../../assets/images/DarkFantacy.png';
 import ProjectThreeImage from '../../assets/images/NetFlix.png';
 import ProjectfourImage from '../../assets/images/Olx.png';
+import ProjectfiveImage from '../../assets/images/Connectin ad.png';
 import {useMemo} from "react";
 import {Project as ProjectType} from "../../Types/Project.ts";
 import {Project} from  "../";
@@ -52,9 +53,10 @@ export const Projects= () => {
             subtitle: 'Online Job Portel',
             description: "In this Project Used DjangoRestFrameWork,PSQL,HTML,Tailwind CSS,JWT,Axios,React,Redux, It's provide Good userfriendly UI, offering a variety of features to enhance your online experience.",
 
-            github: '',
+            github: 'https://github.com/ashiqueparammel/connectinfrontend',
+            githubbackend: 'https://github.com/ashiqueparammel/connectinbackend',
             website: '',
-            image: ProjectTwoImage,
+            image: ProjectfiveImage,
             techStack: ['DRF', 'PSQL','HTML','Tailwind CSS','JWT','Axios','React','Redux']
         }
       
