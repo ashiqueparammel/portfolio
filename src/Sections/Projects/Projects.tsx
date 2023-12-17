@@ -43,9 +43,19 @@ export const Projects= () => {
             description: "Responsive Template Used HTML and CSS",
 
             github: 'https://github.com/AshiqueParammel/Dark-fantasy',
-            website: 'ashiqueparammel.github.io/Dark-fantasy/',
+            website: '',
             image: ProjectTwoImage,
             techStack: ['HTML', 'CSS']
+        }
+        ,{
+            title: 'ConnectIn',
+            subtitle: 'Online Job Portel',
+            description: "In this Project Used DjangoRestFrameWork,PSQL,HTML,Tailwind CSS,JWT,Axios,React,Redux, It's provide Good userfriendly UI, offering a variety of features to enhance your online experience.",
+
+            github: '',
+            website: '',
+            image: ProjectTwoImage,
+            techStack: ['DRF', 'PSQL','HTML','Tailwind CSS','JWT','Axios','React','Redux']
         }
       
     ], []);
